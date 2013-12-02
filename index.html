@@ -25,6 +25,26 @@
       <section>
         <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>redsec zone: firmware security research</h3>
+<p>We are researching firmware security for x86/x64, ARM and Power platforms including:
+<ul>
+<li><a href="http://www.coreboot.org">coreboot</a> and <a href="http://www.seabios.org">SeaBIOS</a> security</li>
+<li>Firmware security analysis including virtualization and emulation</li>
+<li>Firmware forensic analysis</li>
+</ul>
+</p>
+
+<a name="redec-coreboot" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>redsec coreboot for QEMU</h3>
+<p>
+We are providing for research purposes our build of coreboot with SeaBIOS payload targeting (Windows) QEMU.
+To get latest build please visit our github <a href="https://github.com/redsec/coreboot-reference">repository</a> or just pull the whole reposity using git:
+</p>
+<pre><code>$ cd your_source_code_directory
+$ git pull https://github.com/redsec/coreboot-reference
+</code></pre>
+
+<p></p>If you would like to debug it using gdb server (using IDA for example) you should run QEMU using qemu-win-coreboot-gdb.bat script from Windows folder of our repository. Otherwise use qemu-win-coreboot.bat.
+</p>
+
 
 <p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
